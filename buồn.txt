@@ -49,8 +49,8 @@ local function newToggle(parent, text, y)
     toggle.Position = UDim2.new(1, -30, 0.5, -12)
     toggle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
     toggle.BorderColor3 = Color3.fromRGB(255, 221, 0)
-    toggle.Text = ""
-    toggle.AutoButtonColor = false
+    toggle.Text = "☆"
+    toggle.AutoButtonColor = true
 
     local fill = Instance.new("Frame", toggle)
     fill.Size = UDim2.new(0.8, 0, 0.8, 0)
